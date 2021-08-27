@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		167DD5A726BD0C03007EEA51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167DD5A626BD0C03007EEA51 /* AppDelegate.swift */; };
+		167DD5A926BD0C03007EEA51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167DD5A826BD0C03007EEA51 /* SceneDelegate.swift */; };
+		167DD5AB26BD0C03007EEA51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167DD5AA26BD0C03007EEA51 /* ViewController.swift */; };
+		167DD5AE26BD0C03007EEA51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 167DD5AC26BD0C03007EEA51 /* Main.storyboard */; };
+		167DD5B026BD0C04007EEA51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 167DD5AF26BD0C04007EEA51 /* Assets.xcassets */; };
+		167DD5B326BD0C04007EEA51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 167DD5B126BD0C04007EEA51 /* LaunchScreen.storyboard */; };
+		167DD5BE26BD0C04007EEA51 /* wikipediasearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167DD5BD26BD0C04007EEA51 /* wikipediasearchTests.swift */; };
+		167DD5C926BD0C04007EEA51 /* wikipediasearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167DD5C826BD0C04007EEA51 /* wikipediasearchUITests.swift */; };
+		167DD5DA26BD0C86007EEA51 /* Pages1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167DD5D626BD0C85007EEA51 /* Pages1.swift */; };
+		167DD5DB26BD0C86007EEA51 /* 717.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167DD5D726BD0C85007EEA51 /* 717.swift */; };
+		167DD5DC26BD0C86007EEA51 /* Model1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167DD5D826BD0C85007EEA51 /* Model1.swift */; };
+		167DD5DD26BD0C86007EEA51 /* Query1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167DD5D926BD0C86007EEA51 /* Query1.swift */; };
+		1691FF0A26BD2682008B41FF /* Continue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1691FF0426BD2682008B41FF /* Continue.swift */; };
+		1691FF0B26BD2682008B41FF /* Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1691FF0526BD2682008B41FF /* Thumbnail.swift */; };
+		1691FF0C26BD2682008B41FF /* Query2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1691FF0626BD2682008B41FF /* Query2.swift */; };
+		1691FF0D26BD2682008B41FF /* Model2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1691FF0726BD2682008B41FF /* Model2.swift */; };
+		1691FF0E26BD2682008B41FF /* Terms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1691FF0826BD2682008B41FF /* Terms.swift */; };
+		1691FF0F26BD2682008B41FF /* Pages2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1691FF0926BD2682008B41FF /* Pages2.swift */; };
+		1691FF1126BD5063008B41FF /* detailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1691FF1026BD5063008B41FF /* detailTableViewCell.swift */; };
+		1691FF1326C03AD3008B41FF /* searchUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1691FF1226C03AD3008B41FF /* searchUIViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		167DD5BA26BD0C04007EEA51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 167DD59B26BD0C03007EEA51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 167DD5A226BD0C03007EEA51;
+			remoteInfo = wikipediasearch;
+		};
+		167DD5C526BD0C04007EEA51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 167DD59B26BD0C03007EEA51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 167DD5A226BD0C03007EEA51;
+			remoteInfo = wikipediasearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		167DD5A326BD0C03007EEA51 /* wikipediasearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wikipediasearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		167DD5A626BD0C03007EEA51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		167DD5A826BD0C03007EEA51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		167DD5AA26BD0C03007EEA51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		167DD5AD26BD0C03007EEA51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		167DD5AF26BD0C04007EEA51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		167DD5B226BD0C04007EEA51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		167DD5B426BD0C04007EEA51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		167DD5B926BD0C04007EEA51 /* wikipediasearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wikipediasearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		167DD5BD26BD0C04007EEA51 /* wikipediasearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wikipediasearchTests.swift; sourceTree = "<group>"; };
+		167DD5BF26BD0C04007EEA51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		167DD5C426BD0C04007EEA51 /* wikipediasearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wikipediasearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		167DD5C826BD0C04007EEA51 /* wikipediasearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wikipediasearchUITests.swift; sourceTree = "<group>"; };
+		167DD5CA26BD0C04007EEA51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		167DD5D626BD0C85007EEA51 /* Pages1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pages1.swift; path = ../../codegen_610cd20131023/Pages1.swift; sourceTree = "<group>"; };
+		167DD5D726BD0C85007EEA51 /* 717.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 717.swift; path = ../../codegen_610cd20131023/717.swift; sourceTree = "<group>"; };
+		167DD5D826BD0C85007EEA51 /* Model1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Model1.swift; path = ../../codegen_610cd20131023/Model1.swift; sourceTree = "<group>"; };
+		167DD5D926BD0C86007EEA51 /* Query1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Query1.swift; path = ../../codegen_610cd20131023/Query1.swift; sourceTree = "<group>"; };
+		1691FF0426BD2682008B41FF /* Continue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Continue.swift; path = ../../codegen_610cee7ba416f/Continue.swift; sourceTree = "<group>"; };
+		1691FF0526BD2682008B41FF /* Thumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Thumbnail.swift; path = ../../codegen_610cee7ba416f/Thumbnail.swift; sourceTree = "<group>"; };
+		1691FF0626BD2682008B41FF /* Query2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Query2.swift; path = ../../codegen_610cee7ba416f/Query2.swift; sourceTree = "<group>"; };
+		1691FF0726BD2682008B41FF /* Model2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Model2.swift; path = ../../codegen_610cee7ba416f/Model2.swift; sourceTree = "<group>"; };
+		1691FF0826BD2682008B41FF /* Terms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Terms.swift; path = ../../codegen_610cee7ba416f/Terms.swift; sourceTree = "<group>"; };
+		1691FF0926BD2682008B41FF /* Pages2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pages2.swift; path = ../../codegen_610cee7ba416f/Pages2.swift; sourceTree = "<group>"; };
+		1691FF1026BD5063008B41FF /* detailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailTableViewCell.swift; sourceTree = "<group>"; };
+		1691FF1226C03AD3008B41FF /* searchUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchUIViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		167DD5A026BD0C03007EEA51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167DD5B626BD0C04007EEA51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167DD5C126BD0C04007EEA51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		167DD59A26BD0C03007EEA51 = {
+			isa = PBXGroup;
+			children = (
+				167DD5A526BD0C03007EEA51 /* wikipediasearch */,
+				167DD5BC26BD0C04007EEA51 /* wikipediasearchTests */,
+				167DD5C726BD0C04007EEA51 /* wikipediasearchUITests */,
+				167DD5A426BD0C03007EEA51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		167DD5A426BD0C03007EEA51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				167DD5A326BD0C03007EEA51 /* wikipediasearch.app */,
+				167DD5B926BD0C04007EEA51 /* wikipediasearchTests.xctest */,
+				167DD5C426BD0C04007EEA51 /* wikipediasearchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		167DD5A526BD0C03007EEA51 /* wikipediasearch */ = {
+			isa = PBXGroup;
+			children = (
+				167DD5A626BD0C03007EEA51 /* AppDelegate.swift */,
+				167DD5A826BD0C03007EEA51 /* SceneDelegate.swift */,
+				167DD5AA26BD0C03007EEA51 /* ViewController.swift */,
+				167DD5D726BD0C85007EEA51 /* 717.swift */,
+				167DD5D826BD0C85007EEA51 /* Model1.swift */,
+				167DD5D626BD0C85007EEA51 /* Pages1.swift */,
+				1691FF0726BD2682008B41FF /* Model2.swift */,
+				1691FF0926BD2682008B41FF /* Pages2.swift */,
+				167DD5D926BD0C86007EEA51 /* Query1.swift */,
+				1691FF0426BD2682008B41FF /* Continue.swift */,
+				1691FF0626BD2682008B41FF /* Query2.swift */,
+				1691FF0826BD2682008B41FF /* Terms.swift */,
+				1691FF0526BD2682008B41FF /* Thumbnail.swift */,
+				167DD5AC26BD0C03007EEA51 /* Main.storyboard */,
+				167DD5AF26BD0C04007EEA51 /* Assets.xcassets */,
+				167DD5B126BD0C04007EEA51 /* LaunchScreen.storyboard */,
+				167DD5B426BD0C04007EEA51 /* Info.plist */,
+				1691FF1026BD5063008B41FF /* detailTableViewCell.swift */,
+				1691FF1226C03AD3008B41FF /* searchUIViewController.swift */,
+			);
+			path = wikipediasearch;
+			sourceTree = "<group>";
+		};
+		167DD5BC26BD0C04007EEA51 /* wikipediasearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				167DD5BD26BD0C04007EEA51 /* wikipediasearchTests.swift */,
+				167DD5BF26BD0C04007EEA51 /* Info.plist */,
+			);
+			path = wikipediasearchTests;
+			sourceTree = "<group>";
+		};
+		167DD5C726BD0C04007EEA51 /* wikipediasearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				167DD5C826BD0C04007EEA51 /* wikipediasearchUITests.swift */,
+				167DD5CA26BD0C04007EEA51 /* Info.plist */,
+			);
+			path = wikipediasearchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		167DD5A226BD0C03007EEA51 /* wikipediasearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167DD5CD26BD0C04007EEA51 /* Build configuration list for PBXNativeTarget "wikipediasearch" */;
+			buildPhases = (
+				167DD59F26BD0C03007EEA51 /* Sources */,
+				167DD5A026BD0C03007EEA51 /* Frameworks */,
+				167DD5A126BD0C03007EEA51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wikipediasearch;
+			productName = wikipediasearch;
+			productReference = 167DD5A326BD0C03007EEA51 /* wikipediasearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		167DD5B826BD0C04007EEA51 /* wikipediasearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167DD5D026BD0C04007EEA51 /* Build configuration list for PBXNativeTarget "wikipediasearchTests" */;
+			buildPhases = (
+				167DD5B526BD0C04007EEA51 /* Sources */,
+				167DD5B626BD0C04007EEA51 /* Frameworks */,
+				167DD5B726BD0C04007EEA51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				167DD5BB26BD0C04007EEA51 /* PBXTargetDependency */,
+			);
+			name = wikipediasearchTests;
+			productName = wikipediasearchTests;
+			productReference = 167DD5B926BD0C04007EEA51 /* wikipediasearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		167DD5C326BD0C04007EEA51 /* wikipediasearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167DD5D326BD0C04007EEA51 /* Build configuration list for PBXNativeTarget "wikipediasearchUITests" */;
+			buildPhases = (
+				167DD5C026BD0C04007EEA51 /* Sources */,
+				167DD5C126BD0C04007EEA51 /* Frameworks */,
+				167DD5C226BD0C04007EEA51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				167DD5C626BD0C04007EEA51 /* PBXTargetDependency */,
+			);
+			name = wikipediasearchUITests;
+			productName = wikipediasearchUITests;
+			productReference = 167DD5C426BD0C04007EEA51 /* wikipediasearchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		167DD59B26BD0C03007EEA51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					167DD5A226BD0C03007EEA51 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					167DD5B826BD0C04007EEA51 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 167DD5A226BD0C03007EEA51;
+					};
+					167DD5C326BD0C04007EEA51 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 167DD5A226BD0C03007EEA51;
+					};
+				};
+			};
+			buildConfigurationList = 167DD59E26BD0C03007EEA51 /* Build configuration list for PBXProject "wikipediasearch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 167DD59A26BD0C03007EEA51;
+			productRefGroup = 167DD5A426BD0C03007EEA51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				167DD5A226BD0C03007EEA51 /* wikipediasearch */,
+				167DD5B826BD0C04007EEA51 /* wikipediasearchTests */,
+				167DD5C326BD0C04007EEA51 /* wikipediasearchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		167DD5A126BD0C03007EEA51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167DD5B326BD0C04007EEA51 /* LaunchScreen.storyboard in Resources */,
+				167DD5B026BD0C04007EEA51 /* Assets.xcassets in Resources */,
+				167DD5AE26BD0C03007EEA51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167DD5B726BD0C04007EEA51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167DD5C226BD0C04007EEA51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		167DD59F26BD0C03007EEA51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1691FF0C26BD2682008B41FF /* Query2.swift in Sources */,
+				1691FF0F26BD2682008B41FF /* Pages2.swift in Sources */,
+				1691FF1126BD5063008B41FF /* detailTableViewCell.swift in Sources */,
+				167DD5AB26BD0C03007EEA51 /* ViewController.swift in Sources */,
+				167DD5DD26BD0C86007EEA51 /* Query1.swift in Sources */,
+				167DD5DB26BD0C86007EEA51 /* 717.swift in Sources */,
+				1691FF0D26BD2682008B41FF /* Model2.swift in Sources */,
+				1691FF0E26BD2682008B41FF /* Terms.swift in Sources */,
+				167DD5A726BD0C03007EEA51 /* AppDelegate.swift in Sources */,
+				167DD5DA26BD0C86007EEA51 /* Pages1.swift in Sources */,
+				1691FF0B26BD2682008B41FF /* Thumbnail.swift in Sources */,
+				167DD5A926BD0C03007EEA51 /* SceneDelegate.swift in Sources */,
+				1691FF0A26BD2682008B41FF /* Continue.swift in Sources */,
+				167DD5DC26BD0C86007EEA51 /* Model1.swift in Sources */,
+				1691FF1326C03AD3008B41FF /* searchUIViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167DD5B526BD0C04007EEA51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167DD5BE26BD0C04007EEA51 /* wikipediasearchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167DD5C026BD0C04007EEA51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167DD5C926BD0C04007EEA51 /* wikipediasearchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		167DD5BB26BD0C04007EEA51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 167DD5A226BD0C03007EEA51 /* wikipediasearch */;
+			targetProxy = 167DD5BA26BD0C04007EEA51 /* PBXContainerItemProxy */;
+		};
+		167DD5C626BD0C04007EEA51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 167DD5A226BD0C03007EEA51 /* wikipediasearch */;
+			targetProxy = 167DD5C526BD0C04007EEA51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		167DD5AC26BD0C03007EEA51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				167DD5AD26BD0C03007EEA51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		167DD5B126BD0C04007EEA51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				167DD5B226BD0C04007EEA51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		167DD5CB26BD0C04007EEA51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		167DD5CC26BD0C04007EEA51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		167DD5CE26BD0C04007EEA51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wikipediasearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sample.wikipediasearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		167DD5CF26BD0C04007EEA51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wikipediasearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sample.wikipediasearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		167DD5D126BD0C04007EEA51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wikipediasearchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sample.wikipediasearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wikipediasearch.app/wikipediasearch";
+			};
+			name = Debug;
+		};
+		167DD5D226BD0C04007EEA51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wikipediasearchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sample.wikipediasearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wikipediasearch.app/wikipediasearch";
+			};
+			name = Release;
+		};
+		167DD5D426BD0C04007EEA51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wikipediasearchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sample.wikipediasearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wikipediasearch;
+			};
+			name = Debug;
+		};
+		167DD5D526BD0C04007EEA51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wikipediasearchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sample.wikipediasearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wikipediasearch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		167DD59E26BD0C03007EEA51 /* Build configuration list for PBXProject "wikipediasearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167DD5CB26BD0C04007EEA51 /* Debug */,
+				167DD5CC26BD0C04007EEA51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		167DD5CD26BD0C04007EEA51 /* Build configuration list for PBXNativeTarget "wikipediasearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167DD5CE26BD0C04007EEA51 /* Debug */,
+				167DD5CF26BD0C04007EEA51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		167DD5D026BD0C04007EEA51 /* Build configuration list for PBXNativeTarget "wikipediasearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167DD5D126BD0C04007EEA51 /* Debug */,
+				167DD5D226BD0C04007EEA51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		167DD5D326BD0C04007EEA51 /* Build configuration list for PBXNativeTarget "wikipediasearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167DD5D426BD0C04007EEA51 /* Debug */,
+				167DD5D526BD0C04007EEA51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 167DD59B26BD0C03007EEA51 /* Project object */;
+}
